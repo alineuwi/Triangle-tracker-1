@@ -1,4 +1,0 @@
-var triangle= function(3,3,3) {
-
-    alert (equilateral triangle(3,3,3));
-}
