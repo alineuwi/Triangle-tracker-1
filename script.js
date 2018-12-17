@@ -4,7 +4,8 @@ function track(){
     var secondvalue=parseInt(document.getElementById('two').value);
     var thirdvalue=parseInt(document.getElementById('three').value);
     var text;
-    var array=[firstvalue,secondvalue,thirdvalue];
+    var array= [];
+    var data = array.concat([firstvalue, secondvalue, thirdvalue]);
     if(firstvalue <= 0|| secondvalue <= 0 || thirdvalue <=0 ){
         text="Undefined"
     }
@@ -20,7 +21,7 @@ function track(){
      //Equirateral Triangle
     
     else if(firstvalue===secondvalue || firstvalue===thirdvalue || secondvalue===thirdvalue) {
-        text="Isoscele Trimugishangle.";
+        text="Isoscele Triangle.";
     } 
     //Isoscele Triangle
     else if(firstvalue!==secondvalue && firstvalue!==thirdvalue &&secondvalue!==thirdvalue){
@@ -31,6 +32,5 @@ function track(){
     else{
         text = "Error.";
     }
-    document.getElementById('demo').innerHTML = text;
-   "The value[" + array + "]" + " is " + text;
+    document.getElementById('demo').innerHTML = "The value[" + data + "]" + " is " + text;;
 }
