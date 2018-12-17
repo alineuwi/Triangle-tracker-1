@@ -4,6 +4,8 @@ function track(){
     var secondvalue=parseInt(document.getElementById('two').value);
     var thirdvalue=parseInt(document.getElementById('three').value);
     var text;
+    var function={first,secondvalue,third}
+
     if(firstvalue <= 0|| secondvalue <= 0 || thirdvalue <=0 ){
         text="Undefined"
     }
