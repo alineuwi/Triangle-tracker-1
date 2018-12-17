@@ -9,6 +9,7 @@ Triangle tracker is some of my work and It is standalone webpage with informatio
 * Open your browser
 * In your browser adress bar type the following
 * https://github.com/lolohMugisha/Triangle-tracker.git
+* https://lolohmugisha.github.io/Triangle-tracker/*
 * And there you have it
 ## Technologies Used
 * HTML for structuring
