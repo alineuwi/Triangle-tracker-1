@@ -3,14 +3,6 @@ body{
   background-size:cover;
   background-repeat: no-repeat;
 }
-#values {
-  width: 40%;
-  padding-top: 40px;
-  border-style: ridge;
-  border-width: 2px;
-  text-align: center;
-  border-color: navy;
-}
 
 .form{
   width: 30%;
@@ -20,6 +12,7 @@ body{
   border-style:solid;
   border-width:10px;
   border-color: black;
+  align:center;
 }
 input {
   margin-left: 0.5px;
@@ -47,6 +40,14 @@ em {
   font-weight: bold;
   text-align: center;
   color:darkred;
+}
+  #values {
+    width: 40%;
+    padding-top: 40px;
+    border-style: ridge;
+    border-width: 2px;
+    text-align: center;
+    border-color: navy;
 }
   .footer {
       display: flex;
