@@ -15,10 +15,6 @@ Triangle tracker is some of my work and It is standalone webpage with informatio
 * HTML for structuring
 * CSS for styling
 
-### License
-https://github.com/lolohMugisha/Triangle-tracker.git
-Copyright (c) 20178   **Charlotte Laurence NYIRAMUGISHA**
-
 ### BDD
 
 1. The behaviour of an Isoscles triangle is when two side are equal. E.g(20; 20;17 ) Therefore, output example is: The value[20,20,17] is Isoscele Triangle.
@@ -28,3 +24,7 @@ Copyright (c) 20178   **Charlotte Laurence NYIRAMUGISHA**
 4. Other behavior is when The summation of any two sides is not equal to the third sum ( 3; 6; 2 ), the result is The value[3,6,2] is Not a Triangle.
 
 5. The last one is when the one side or all side is zero or no thing. eg1 ( 0; 0; 0 ), Eg2 (2,0,1) the rusult1: The value[0,0,0] is Undefined, the rusult2: The value[2,0,1] is Undefined
+
+### License
+https://github.com/lolohMugisha/Triangle-tracker.git
+Copyright (c) 20178   **Charlotte Laurence NYIRAMUGISHA**
