@@ -47,7 +47,7 @@ em {
     border-style: ridge;
     border-width: 2px;
     text-align: center;
-    border-color: navy;
+    border-color:red;
 }
   .footer {
       display: flex;

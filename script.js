@@ -19,7 +19,7 @@ function track(){
      //Equirateral Triangle
     
     else if(firstvalue===secondvalue || firstvalue===thirdvalue || secondvalue===thirdvalue) {
-        text="Isoscele Triangle.";
+        text="Isoscele Trimugishangle.";
     } 
     //Isoscele Triangle
     else if(firstvalue!==secondvalue && firstvalue!==thirdvalue &&secondvalue!==thirdvalue){
